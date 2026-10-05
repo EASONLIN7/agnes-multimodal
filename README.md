@@ -34,12 +34,12 @@ Copy (or symlink) this folder so that `SKILL.md` sits at the skill root:
 
 ```powershell
 # Windows
-git clone https://github.com/<you>/agnes-multimodal "$env:USERPROFILE\.codex\skills\agnes-multimodal"
+git clone https://github.com/EASONLIN7/agnes-multimodal "$env:USERPROFILE\.codex\skills\agnes-multimodal"
 ```
 
 ```bash
 # macOS / Linux
-git clone https://github.com/<you>/agnes-multimodal "${CODEX_HOME:-$HOME/.codex}/skills/agnes-multimodal"
+git clone https://github.com/EASONLIN7/agnes-multimodal "${CODEX_HOME:-$HOME/.codex}/skills/agnes-multimodal"
 ```
 
 Codex picks the skill up automatically; `$agnes-multimodal` invokes it explicitly,
