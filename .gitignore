@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# virtualenvs
+.venv/
+venv/
+
+# local secrets / config
+.env
+.agnes/
+agnes.json
+
+# generated media and scratch output
+agnes_output/
+outputs/
+*.mp4
+*.mov
+*.webm

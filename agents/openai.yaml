@@ -1,0 +1,8 @@
+interface:
+  display_name: "Agnes Multimodal"
+  short_description: "Generate images/videos and read images via Agnes AI"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $agnes-multimodal to create a 16:9 cover image for this article."
+
+policy:
+  allow_implicit_invocation: true

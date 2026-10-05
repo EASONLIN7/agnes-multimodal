@@ -1,0 +1,5 @@
+# Normalize line endings so the Python CLI stays LF on every platform
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.mp4 binary
